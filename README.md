@@ -22,15 +22,15 @@ _if you need update_
 ### 3. Insert your info into jobcan.py
 (1) company name in line 12
 
-    elem_client_id.send_keys('{your company name})')
+    {your company name}
 
 (2) e-mail in line 14
 
-    elem_email.send_keys('{your mail_address}')
+    {your mail_address}
 
 (3) password in line 16
 
-    elem_password.send_keys('{your password}')
+    {your password}
 
 
 ### 4 Put your Excel file
