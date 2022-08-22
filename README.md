@@ -1,15 +1,17 @@
 # jobcan
 
-### 1. version
-    windows 10
-    Python 3.10.4
-    pip 22.2.2
-    selenium 4.4.3
+### 1. Check version
+windows 10 <br>
+Python 3.10.4 <br>
+pip 22.2.2 <br>
+selenium 4.4.3 <br>
 
-    (pip install --upgrade pip --user)
+_if you need update_
+
+    pip install --upgrade pip --user
 
 
-### 2. install selenium, webdriver-manager,xlwings
+### 2. Install selenium, webdriver-manager,xlwings
     pip install selenium
 
     pip install webdriver-manager --user
@@ -17,13 +19,19 @@
     pip install xlwings --user
 
 
-### 3. insert your info into jobcan.py
-    (1) company name in line 12
+### 3. Insert your info into jobcan.py
+(1) company name in line 12
 
-    (2) e-mail in line 14
+    elem_client_id.send_keys('{your company name})')
 
-    (3) password in line 16
+(2) e-mail in line 14
+
+    elem_email.send_keys('{your mail_address}')
+
+(3) password in line 16
+
+    elem_password.send_keys('{your password}')
 
 
-### 4 put your Excel file in the ExcelFile directory
-    put 'job_report.xlsx' file
+### 4 Put your Excel file
+put 'job_report.xlsx' file in the 'ExcelFile' directory
