@@ -10,11 +10,11 @@
 
 
 ### 2. install selenium, webdriver-manager,xlwings
-    (1) pip install selenium
+    pip install selenium
 
-    (2) pip install webdriver-manager --user
+    pip install webdriver-manager --user
 
-    (3) pip install xlwings --user
+    pip install xlwings --user
 
 
 ### 3. insert your info into jobcan.py
@@ -26,4 +26,4 @@
 
 
 ### 4 put your Excel file in the ExcelFile directory
-    I put 'job_report.xlsx' file
+    put 'job_report.xlsx' file
