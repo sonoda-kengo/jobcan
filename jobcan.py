@@ -9,11 +9,11 @@ browser = webdriver.Chrome(ChromeDriverManager().install())
 url ="https://ssl.jobcan.jp/login/pc-employee-global?lang_code=ja"
 browser.get(url)
 elem_client_id = browser.find_element(By.ID, 'client_id')
-elem_client_id.send_keys('xxxxxxxxxxxx(company name)')
+elem_client_id.send_keys('{your company name}')
 elem_email = browser.find_element(By.ID, 'email')
-elem_email.send_keys('xxxxxxxxxxxx(mail_address)')
+elem_email.send_keys('{your mail_address}')
 elem_password = browser.find_element(By.ID, 'password')
-elem_password.send_keys('xxxxxxxxxxxx(your password)')
+elem_password.send_keys('{your password}')
 browser.find_element(By.XPATH, '//button').click()
 
 
